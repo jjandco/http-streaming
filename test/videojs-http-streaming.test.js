@@ -185,10 +185,10 @@ QUnit.test('version is exported', function(assert) {
   assert.ok(videojs.VhsHandler.version, 'version function');
 
   assert.deepEqual(this.player.tech(true).vhs.version(), {
-    '@videojs/http-streaming': vhsVersion,
+    'http-streamin-uc': vhsVersion,
     'mux.js': muxVersion,
     'mpd-parser': mpdVersion,
-    'm3u8-parser': m3u8Version,
+    'm3u8-parser-uc': m3u8Version,
     'aes-decrypter': aesVersion
   }, 'version is correct');
 
