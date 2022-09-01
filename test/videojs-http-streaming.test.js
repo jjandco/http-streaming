@@ -49,7 +49,7 @@ import 'videojs-contrib-eme';
 import {version as vhsVersion} from '../package.json';
 import {version as muxVersion} from 'mux.js/package.json';
 import {version as mpdVersion} from 'mpd-parser/package.json';
-import {version as m3u8Version} from 'm3u8-parser/package.json';
+import {version as m3u8Version} from 'm3u8-parser-uc/package.json';
 import {version as aesVersion} from 'aes-decrypter/package.json';
 
 let testOrSkip = 'test';

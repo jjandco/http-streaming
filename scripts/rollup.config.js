@@ -28,7 +28,7 @@ const options = {
     return Object.assign(defaults, {
       module: defaults.module.concat([
         'aes-decrypter',
-        'm3u8-parser',
+        'm3u8-parser-uc',
         'mpd-parser',
         'mux.js',
         '@videojs/vhs-utils'

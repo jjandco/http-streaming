@@ -1,12 +1,12 @@
 {
-  "name": "@videojs/http-streaming",
+  "name": "http-streaming-uc",
   "version": "2.14.3",
   "description": "Play back HLS and DASH with Video.js, even where it's not natively supported",
   "main": "dist/videojs-http-streaming.cjs.js",
   "module": "dist/videojs-http-streaming.es.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:videojs/http-streaming.git"
+    "url": "git+ssh://git@github.com/jjandco/http-streaming.git"
   },
   "scripts": {
     "prenetlify": "npm run build",
@@ -59,7 +59,7 @@
     "@videojs/vhs-utils": "3.0.5",
     "aes-decrypter": "3.1.3",
     "global": "^4.4.0",
-    "m3u8-parser": "4.7.1",
+    "m3u8-parser-uc": "^5.1.0",
     "mpd-parser": "0.21.1",
     "mux.js": "6.0.1",
     "video.js": "^6 || ^7"
@@ -112,5 +112,13 @@
   "lint-staged": {
     "*.js": "vjsstandard --fix",
     "README.md": "doctoc --notitle"
+  },
+  "bugs": {
+    "url": "https://github.com/jjandco/http-streaming/issues"
+  },
+  "homepage": "https://github.com/jjandco/http-streaming#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }

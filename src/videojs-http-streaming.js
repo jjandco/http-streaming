@@ -46,7 +46,7 @@ import {SAFE_TIME_DELTA} from './ranges';
 import {version as vhsVersion} from '../package.json';
 import {version as muxVersion} from 'mux.js/package.json';
 import {version as mpdVersion} from 'mpd-parser/package.json';
-import {version as m3u8Version} from 'm3u8-parser/package.json';
+import {version as m3u8Version} from 'm3u8-parser-uc/package.json';
 import {version as aesVersion} from 'aes-decrypter/package.json';
 
 const Vhs = {
@@ -1143,10 +1143,10 @@ class VhsHandler extends Component {
    */
   static version() {
     return {
-      '@videojs/http-streaming': vhsVersion,
+      'http-streaming-uc': vhsVersion,
       'mux.js': muxVersion,
       'mpd-parser': mpdVersion,
-      'm3u8-parser': m3u8Version,
+      'm3u8-parser-uc': m3u8Version,
       'aes-decrypter': aesVersion
     };
   }

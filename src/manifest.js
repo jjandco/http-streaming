@@ -1,6 +1,6 @@
 import videojs from 'video.js';
 import window from 'global/window';
-import { Parser as M3u8Parser } from 'm3u8-parser';
+import { Parser as M3u8Parser } from 'm3u8-parser-uc';
 import { resolveUrl } from './resolve-url';
 import { getLastParts, isAudioOnly } from './playlist.js';
 
