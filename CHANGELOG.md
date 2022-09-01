@@ -1,3 +1,6 @@
+<a name="2.15.1"></a>
+## [2.15.1](https://github.com/jjandco/http-streaming/compare/v2.15.0...v2.15.1) (2022-09-01)
+
 <a name="2.15.0"></a>
 # [2.15.0](https://github.com/jjandco/http-streaming/compare/v2.14.3...v2.15.0) (2022-09-01)
 
