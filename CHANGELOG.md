@@ -1,3 +1,6 @@
+<a name="2.15.0"></a>
+# [2.15.0](https://github.com/jjandco/http-streaming/compare/v2.14.3...v2.15.0) (2022-09-01)
+
 <a name="2.14.3"></a>
 ## [2.14.3](https://github.com/videojs/http-streaming/compare/v2.14.2...v2.14.3) (2022-08-31)
 
